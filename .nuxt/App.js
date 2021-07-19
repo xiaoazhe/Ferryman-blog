@@ -1,18 +1,18 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '..\\node_modules\\_element-ui@2.15.3@element-ui\\lib\\theme-chalk\\index.css'
+import '../node_modules/element-ui/lib/theme-chalk/index.css'
 
-import '..\\node_modules\\_quill@1.3.7@quill\\dist\\quill.snow.css'
+import '../node_modules/quill/dist/quill.snow.css'
 
-import '..\\node_modules\\_quill@1.3.7@quill\\dist\\quill.bubble.css'
+import '../node_modules/quill/dist/quill.bubble.css'
 
-import '..\\node_modules\\_quill@1.3.7@quill\\dist\\quill.core.css'
+import '../node_modules/quill/dist/quill.core.css'
 
 
 let layouts = {
 
-  "_default": () => import('..\\layouts\\default.vue'  /* webpackChunkName: "layouts_default" */).then(m => m.default || m)
+  "_default": () => import('../layouts/default.vue'  /* webpackChunkName: "layouts/default" */).then(m => m.default || m)
 
 }
 
