@@ -2,89 +2,86 @@
   <div>
       <header>
         <div class="activity-head">
-        <div class="wrapper"> 
-        <div class="sui-navbar"> 
-            <div class="navbar-inner"> 
+        <div class="wrapper">
+        <div class="sui-navbar">
+            <div class="navbar-inner">
             <!-- <a href="index-logined.html" class="sui-brand"><img src="~/assets/img/asset-logo-black.png" alt="社交" /></a> -->
-            
-            <ul class="sui-nav"> 
+
+            <ul class="sui-nav">
                 <router-link tag="li" to="/" active-class="active" exact><a>首页</a></router-link>
                 <router-link tag="li" to="/problem" active-class="active"><a>提问</a></router-link>
                 <router-link tag="li" to="/gossip" active-class="active"><a>吐槽</a></router-link>
                 <router-link tag="li" to="/material" active-class="active"><a>资料</a></router-link>
                 <router-link tag="li" to="/friend" active-class="active"><a>链接</a></router-link>
                 <router-link tag="li" to="/manager" active-class="active"><a>个人中心</a></router-link>
-            </ul> 
-            <form class="sui-form sui-form pull-left"> 
-                <input type="text" placeholder="输入关键词..." /> 
-                <span class="btn-search fa fa-search"></span> 
-            </form> 
-            <div class="sui-nav pull-right info" v-if="user.name!==undefined"> 
-              <li><a href="/manager" class="notice">{{user.name}}</a></li>     
-              <li><a @click="logout" class="notice">退出登陆</a></li>            
-              <li><a href="/manager"  class="homego"><img :src="user.avatar" width="50px" height="50px" :alt="user.name" /></a></li> 
-                <!-- <li>
-                  <router-link tag="li" to="/manager" active-class="active">
-              <a class="homego"><img :src="user.avatar" width="50px" height="50px" :alt="user.name" /></a></router-link>
-              </li>  -->
-            </div> 
-             <div class="sui-nav pull-right info" v-if="user.name===undefined"> 
+            </ul>
+            <form class="sui-form sui-form pull-left">
+                <input type="text" placeholder="输入关键词..." />
+                <span class="btn-search fa fa-search"></span>
+            </form>
+            <div class="sui-nav pull-right info" v-if="user.name!==undefined">
+              <li><a href="/manager" class="notice">{{user.name}}</a></li>
+              <li><a @click="logout" class="notice">退出登陆</a></li>
+              <li><a href="/manager"  class="homego"><img :src="user.avatar" width="50px" height="50px" :alt="user.name" /></a></li>
+            </div>
+             <div class="sui-nav pull-right info" v-if="user.name===undefined">
                 <a href="/login">登陆</a>
+               <router-link tag="li" to="/login" active-class="active"><el-button>登陆</el-button></router-link>
              </div>
-            </div> 
-            </div> 
+            </div>
+            </div>
         </div>
         </div>
         </header>
         <nuxt/>
       <footer>
-        <div class="footer"> 
-        <div class="wrapper"> 
-            <div class="footer-bottom"> 
-            <div class="link"> 
-            <dl> 
+        <div class="footer">
+        <div class="wrapper">
+            <div class="footer-bottom">
+            <div class="link">
+            <dl>
             <dt>
                 网站相关
-            </dt> 
+            </dt>
             <dd>
                 关于我们
-            </dd> 
-            
-            </dl> 
-            <dl> 
+            </dd>
+
+            </dl>
+            <dl>
             <dt>
                 常用链接
-            </dt> 
+            </dt>
             <dd>
                 Gitee
-            </dd> 
-            </dl> 
-            <dl> 
+            </dd>
+            </dl>
+            <dl>
             <dt>
                 联系我
-            </dt> 
+            </dt>
             <dd>
                 联系我
-            </dd> 
-            
-            </dl> 
-            <dl> 
+            </dd>
+
+            </dl>
+            <dl>
             <dt>
                 关注我
-            </dt> 
+            </dt>
             <dd>
                 Gitee
-            </dd> 
-           
-            </dl> 
-            <div class="xuke"> 
-            <h3>内容许可</h3> 
-            </div> 
-            </div> 
-            <p class="Copyright"> &copy;当前版本 0.0.1</p> 
-            </div> 
-        </div> 
-        </div> 
+            </dd>
+
+            </dl>
+            <div class="xuke">
+            <h3>内容许可</h3>
+            </div>
+            </div>
+            <p class="Copyright"> &copy;当前版本 0.0.1</p>
+            </div>
+        </div>
+        </div>
       </footer>
   </div>
 </template>

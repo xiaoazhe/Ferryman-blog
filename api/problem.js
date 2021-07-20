@@ -3,7 +3,7 @@ import request from '@/utils/request'
 export default {
     list(type,label,page,size){
         return request({
-            url:`/problem/${type}?label=` + label,
+            url:`/problem/${type}/${label}`,
             method: 'post',
             data: {
                 pageNum : page,

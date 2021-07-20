@@ -5,7 +5,7 @@
      <h3 class="loginsign-title">注册新账号</h3>
      <form class="sui-form">
       <div class="control-group">
-       <label for="inputname" class="control-label">名字</label>
+       <label for="inputname" class="control-label">昵称</label>
        <div class="controls">
         <input type="text" id="inputname" v-model="pojo.nickname" placeholder="真实姓名或常用昵称" class="input-xlarge" />
        </div>
@@ -20,6 +20,7 @@
        <div class="radio-content">
         <div id="a1" class="phone">
          <div class="control-group number">
+           <label for="inputname" class="control-label">手机号</label>
           <input type="text" v-model="pojo.mobile" placeholder="仅支持大陆手机号" class="input-xlarge" />
          </div>
          <div class="control-group code">

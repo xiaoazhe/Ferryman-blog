@@ -11,7 +11,7 @@ export default {
             }
         })
     },
-    findPage(pageNum,pageSize,enabled) {
+  findPageType(pageNum,pageSize,enabled) {
         return request({
             url: '/blog/findPage',
             method: 'post',
