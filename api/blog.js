@@ -24,12 +24,11 @@ export default {
     },
     findUserPage(pageNum,pageSize,id) {
         return request({
-            url: '/blog/findUserPage',
+            url: `/blog/findUserPage/${id}`,
             method: 'post',
             data:{
                 pageNum,
-                pageSize,
-                id
+                pageSize
             }
         })
     },

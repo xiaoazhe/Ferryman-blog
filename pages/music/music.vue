@@ -2,7 +2,7 @@
   <div>
       <div>
         <aplayer :audio="audio" :lrc-type="3" :mini="false" :autoplay="true"
-        :listFolded="false" :fixed="true" :listMaxHeight="450"/>
+        :listFolded="true" :fixed="true" :listMaxHeight="450"/>
       </div>
   </div>
 </template>
