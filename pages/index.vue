@@ -215,7 +215,11 @@ import {getUser} from '@/utils/auth'
 import problemApi from '@/api/problem'
 import friendApi from '@/api/friend'
 
+import Music from '@/pages/music/music'
 export default {
+  components: {
+    Music
+  },
   data() {
     return {
       page: {

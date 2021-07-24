@@ -5,8 +5,7 @@
         <div class="wrapper">
         <div class="sui-navbar">
             <div class="navbar-inner">
-            <!-- <a href="index-logined.html" class="sui-brand"><img src="~/assets/img/asset-logo-black.png" alt="社交" /></a> -->
-
+             <a class="sui-brand"><music /></a>
             <ul class="sui-nav">
                 <router-link tag="li" to="/" active-class="active" exact><a>首页</a></router-link>
                 <router-link tag="li" to="/problem" active-class="active"><a>提问</a></router-link>
@@ -15,6 +14,7 @@
                 <router-link tag="li" to="/friend" active-class="active"><a>链接</a></router-link>
                 <router-link tag="li" to="/manager" active-class="active"><a>个人中心</a></router-link>
             </ul>
+
             <form class="sui-form sui-form pull-left">
                 <input type="text" placeholder="输入关键词..." />
                 <span class="btn-search fa fa-search"></span>
@@ -93,9 +93,13 @@ import '~/assets/plugins/sui/sui-append.min.css'
 import '~/assets/plugins/font-awesome/css/font-awesome.min.css'
 import '~/assets/css/widget-base.css'
 import '~/assets/css/widget-head-foot.css'
+import Music from '@/pages/music/music'
 import {getUser,removeUser} from '@/utils/auth'
 
 export default {
+  components: {
+    Music
+  },
     data(){
         return {
             user: {}

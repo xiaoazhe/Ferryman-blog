@@ -18,12 +18,14 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "@moefe/vue-aplayer": "^2.0.0-beta.5",
+    "axios": "^0.21.1",
     "element-ui": "^2.3.9",
     "js-cookie": "^2.2.0",
     "marked": "^2.0.7",
     "mavon-editor": "^2.9.1",
     "nuxt": "^1.0.0",
+    "vue-aplayer": "^1.6.1",
     "vue-infinite-scroll": "^2.0.2",
     "vue-quill-editor": "^3.0.6",
     "vue-quill-editor-upload": "^1.1.0",
