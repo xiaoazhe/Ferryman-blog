@@ -8,6 +8,8 @@
 </template>
 
 <script>
+
+import blog from '@/api/blog'
 export default {
   data() {
     return {
@@ -32,16 +34,16 @@ export default {
       { src: 'https://cdn.jsdelivr.net/npm/colorthief@2.0.2/dist/color-thief.min.js' }
     ]
   },
-  // async created() {
-  //   await this.getMusicList()
-  // },
-  // methods: {
-  //   async getMusicList() {
-  //     await musicApi.getList().then(res => {
-  //       this.audio = res.data
-  //     })
-  //   }
-  // }
+  async created() {
+    await this.getMusicList()
+  },
+  methods: {
+    async getMusicList() {
+      await blog.getMusicList().then(res => {
+        this.audio = res.data.data
+      })
+    }
+  }
 }
 </script>
 

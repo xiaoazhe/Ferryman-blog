@@ -25,7 +25,6 @@
               <li><a href="/manager"  class="homego"><img :src="user.avatar" width="50px" height="50px" :alt="user.name" /></a></li>
             </div>
              <div class="sui-nav pull-right info" v-if="user.name===undefined">
-                <a href="/login">登陆</a>
                <router-link tag="li" to="/login" active-class="active"><el-button>登陆</el-button></router-link>
              </div>
             </div>

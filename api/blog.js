@@ -51,10 +51,16 @@ export default {
             data
         })
     },
-    delete(id) {
-        return request({
-            url: `/blog/delete/${id}`,
-            method: 'get'
-        })
-    }
+  delete(id) {
+    return request({
+      url: `/blog/delete/${id}`,
+      method: 'get'
+    })
+  },
+  getMusicList() {
+    return request({
+      url: `/blog/getMusicList`,
+      method: 'get'
+    })
+  }
 }

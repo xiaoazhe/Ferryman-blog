@@ -141,7 +141,7 @@
             <img src="~/assets/img/widget-photo.jpg" alt="" />
           </div>
           <div class="fl btn-focus">
-            <h4>作者：{{ user.name }}</h4>
+            <h4>作者：{{ blog.author }}</h4>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -309,7 +309,7 @@ export default {
           res: (response) => {
             return response.data
           },
-          name: 'file'  //图片上传参数 
+          name: 'file'  //图片上传参数
         }
       })
   },
