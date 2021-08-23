@@ -121,7 +121,7 @@ export default {
             location.href='/'
           }else{
             this.$message( {
-              message: res.data.message,
+              message: res.data.msg,
               type: "error"
             })
             this.mobile=''
