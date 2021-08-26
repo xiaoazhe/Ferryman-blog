@@ -111,7 +111,7 @@
               <ul>
                 <li
                   class="list-item"
-                  v-for="(item, index) in waitlist"
+                  v-for="(item, index) in waitlist.content"
                   :key="index"
                 >
                   <p class="list-title">
@@ -240,7 +240,8 @@ export default {
   },
   created() {
     this.getTypeList(),
-      this.user = getUser()
+      this.user = getUser(),
+      this.getProList()
   },
   asyncData() {
     return blog.findPage(1, 10).then(res => {
@@ -249,7 +250,7 @@ export default {
           return friendApi.friendTop().then(res4 => {
             return {
               Top : res4.data.data,
-              waitlist: res3.data.data.content,
+              waitlist: res3.data.data,
               hotBlog: res2.data.data,
               blogContent: res.data.data.content
             }
@@ -261,7 +262,7 @@ export default {
   methods: {
     getProList() {
       problemApi.list('waitlist', 0, 1, 5).then(res => {
-        this.waitlist = res.data.data.content
+        this.waitlist = res.data.data
       })
     },
     getByPage() {

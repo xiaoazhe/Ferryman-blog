@@ -4,7 +4,7 @@ import Player from 'zw-player'
 import APlayer from '@moefe/vue-aplayer'
 
 Vue.use(APlayer, {
-  defaultCover: 'https://github.com/u3u.png',
+  defaultCover: '',
   productionTip: true
 })
 Vue.use(Player)
