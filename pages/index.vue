@@ -249,10 +249,10 @@ export default {
         return problemApi.list('waitlist', 0, 1, 5).then(res3 => {
           return friendApi.friendTop().then(res4 => {
             return {
-              Top : res4.data.data,
-              waitlist: res3.data.data,
-              hotBlog: res2.data.data,
-              blogContent: res.data.data.content
+              Top : res4.data.data || [],
+              waitlist: res3.data.data || [],
+              hotBlog: res2.data.data || [],
+              blogContent: res.data.data.content || []
             }
           })
         })
