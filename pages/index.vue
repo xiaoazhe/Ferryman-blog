@@ -252,7 +252,7 @@ export default {
               Top : res4.data.data || [],
               waitlist: res3.data.data || [],
               hotBlog: res2.data.data || [],
-              blogContent: res.data.data.content || []
+              blogContent: res.data.data.content || [{"title":"test"}]
             }
           })
         })
