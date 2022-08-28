@@ -269,7 +269,9 @@ import { quillRedefine } from 'vue-quill-editor-upload'
 import problemApi from '@/api/problem'
 export default {
   asyncData ({ params }) {
-    return blog.getBlogById(String(params.id)).then(res => {
+    console.log(params.id)
+    return blog.getBlogById(params.id).then(res => {
+
       return {
         blog: res.data.data.blog,
         blogValue: marked(res.data.data.blog.content),
