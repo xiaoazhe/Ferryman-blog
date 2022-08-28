@@ -34,8 +34,9 @@ export default {
     },
     getBlogById(id) {
         return request({
-            url: '/blog/getBlogById?id='+id,
-            method: 'post'
+            url: '/blog/getBlogById',
+            method: 'post',
+            data: id
         })
     },
     getHotBlog() {

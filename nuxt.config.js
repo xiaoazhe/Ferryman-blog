@@ -13,6 +13,11 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  axios: {
+    baseURL: 'https://api.github.com',
+    proxyHeaders: false,
+    credentials: false
+  },
   plugins: [
     { src:'~plugins/element-ui.js' ,ssr: false},
     { src:'~plugins/vue-infinite-scroll.js' ,ssr: false},
@@ -31,6 +36,15 @@ module.exports = {
   /*
   ** Build configuration
   */
+  proxy: {
+    '/api': {
+      target: 'http://localhost:8010', // 目标接口域名
+      changeOrigin: true, // 表示是否跨域
+      pathRewrite: {
+        '^/api': '/', // 把 /api 替换成 /
+      }
+    }
+  },
   build: {
     /*
     ** Run ESLint on save

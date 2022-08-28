@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
-import nuxt_plugin_elementui_0a43734a from 'nuxt_plugin_elementui_0a43734a' // Source: ../plugins/element-ui.js (ssr: false)
-import nuxt_plugin_vueinfinitescroll_5d2c1fcf from 'nuxt_plugin_vueinfinitescroll_5d2c1fcf' // Source: ../plugins/vue-infinite-scroll.js (ssr: false)
-import nuxt_plugin_nuxtquillplugin_3ab6ceae from 'nuxt_plugin_nuxtquillplugin_3ab6ceae' // Source: ../plugins/nuxt-quill-plugin.js (ssr: false)
+import nuxt_plugin_elementui_0a43734a from 'nuxt_plugin_elementui_0a43734a' // Source: ..\\plugins\\element-ui.js (ssr: false)
+import nuxt_plugin_vueinfinitescroll_5d2c1fcf from 'nuxt_plugin_vueinfinitescroll_5d2c1fcf' // Source: ..\\plugins\\vue-infinite-scroll.js (ssr: false)
+import nuxt_plugin_nuxtquillplugin_3ab6ceae from 'nuxt_plugin_nuxtquillplugin_3ab6ceae' // Source: ..\\plugins\\nuxt-quill-plugin.js (ssr: false)
 
 
 // Component: <no-ssr>

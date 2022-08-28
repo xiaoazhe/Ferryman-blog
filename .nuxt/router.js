@@ -3,31 +3,31 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _5d046470 = () => import('../pages/addProblem.vue' /* webpackChunkName: "pages/addProblem" */).then(m => m.default || m)
-const _a873f8a2 = () => import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */).then(m => m.default || m)
-const _1c6181aa = () => import('../pages/friend/index.vue' /* webpackChunkName: "pages/friend/index" */).then(m => m.default || m)
-const _77e33fbc = () => import('../pages/gossip/index.vue' /* webpackChunkName: "pages/gossip/index" */).then(m => m.default || m)
-const _55acd6cf = () => import('../pages/login.vue' /* webpackChunkName: "pages/login" */).then(m => m.default || m)
-const _de81ccda = () => import('../pages/manager.vue' /* webpackChunkName: "pages/manager" */).then(m => m.default || m)
-const _956e3454 = () => import('../pages/manager/index.vue' /* webpackChunkName: "pages/manager/index" */).then(m => m.default || m)
-const _adb0129e = () => import('../pages/manager/account.vue' /* webpackChunkName: "pages/manager/account" */).then(m => m.default || m)
-const _661c73c3 = () => import('../pages/manager/dynamic.vue' /* webpackChunkName: "pages/manager/dynamic" */).then(m => m.default || m)
-const _1d553f16 = () => import('../pages/manager/myanswer.vue' /* webpackChunkName: "pages/manager/myanswer" */).then(m => m.default || m)
-const _10fa8b02 = () => import('../pages/manager/mycollect.vue' /* webpackChunkName: "pages/manager/mycollect" */).then(m => m.default || m)
-const _9a9df0a0 = () => import('../pages/manager/myfocus.vue' /* webpackChunkName: "pages/manager/myfocus" */).then(m => m.default || m)
-const _b48a1184 = () => import('../pages/manager/myquestion.vue' /* webpackChunkName: "pages/manager/myquestion" */).then(m => m.default || m)
-const _37c5f6e6 = () => import('../pages/manager/myreaded.vue' /* webpackChunkName: "pages/manager/myreaded" */).then(m => m.default || m)
-const _eb366418 = () => import('../pages/material/index.vue' /* webpackChunkName: "pages/material/index" */).then(m => m.default || m)
-const _e6a7f8f6 = () => import('../pages/problem.vue' /* webpackChunkName: "pages/problem" */).then(m => m.default || m)
-const _c471db70 = () => import('../pages/problem/index.vue' /* webpackChunkName: "pages/problem/index" */).then(m => m.default || m)
-const _643ade6a = () => import('../pages/problem/label/_label.vue' /* webpackChunkName: "pages/problem/label/_label" */).then(m => m.default || m)
-const _fe2c8d80 = () => import('../pages/problem/problem/_id.vue' /* webpackChunkName: "pages/problem/problem/_id" */).then(m => m.default || m)
-const _bb32bbe2 = () => import('../pages/friend/submit.vue' /* webpackChunkName: "pages/friend/submit" */).then(m => m.default || m)
-const _425a98c4 = () => import('../pages/gossip/submit.vue' /* webpackChunkName: "pages/gossip/submit" */).then(m => m.default || m)
-const _68ec6da1 = () => import('../pages/music/music.vue' /* webpackChunkName: "pages/music/music" */).then(m => m.default || m)
-const _14d4ee1e = () => import('../pages/blog/item/_id.vue' /* webpackChunkName: "pages/blog/item/_id" */).then(m => m.default || m)
-const _6513fdb8 = () => import('../pages/gossip/_id.vue' /* webpackChunkName: "pages/gossip/_id" */).then(m => m.default || m)
-const _e7f59890 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _7219df52 = () => import('..\\pages\\addProblem.vue' /* webpackChunkName: "pages_addProblem" */).then(m => m.default || m)
+const _4722c6e8 = () => import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages_blog_index" */).then(m => m.default || m)
+const _3683bb10 = () => import('..\\pages\\friend\\index.vue' /* webpackChunkName: "pages_friend_index" */).then(m => m.default || m)
+const _72efcc9f = () => import('..\\pages\\gossip\\index.vue' /* webpackChunkName: "pages_gossip_index" */).then(m => m.default || m)
+const _0e8b11f6 = () => import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */).then(m => m.default || m)
+const _b234f76e = () => import('..\\pages\\manager.vue' /* webpackChunkName: "pages_manager" */).then(m => m.default || m)
+const _7a261c19 = () => import('..\\pages\\manager\\index.vue' /* webpackChunkName: "pages_manager_index" */).then(m => m.default || m)
+const _a8deaf98 = () => import('..\\pages\\manager\\account.vue' /* webpackChunkName: "pages_manager_account" */).then(m => m.default || m)
+const _68852546 = () => import('..\\pages\\manager\\dynamic.vue' /* webpackChunkName: "pages_manager_dynamic" */).then(m => m.default || m)
+const _6802bdf3 = () => import('..\\pages\\manager\\myanswer.vue' /* webpackChunkName: "pages_manager_myanswer" */).then(m => m.default || m)
+const _1bfce7c5 = () => import('..\\pages\\manager\\mycollect.vue' /* webpackChunkName: "pages_manager_mycollect" */).then(m => m.default || m)
+const _95cc8d9a = () => import('..\\pages\\manager\\myfocus.vue' /* webpackChunkName: "pages_manager_myfocus" */).then(m => m.default || m)
+const _09f79a4a = () => import('..\\pages\\manager\\myquestion.vue' /* webpackChunkName: "pages_manager_myquestion" */).then(m => m.default || m)
+const _2eca836a = () => import('..\\pages\\manager\\myreaded.vue' /* webpackChunkName: "pages_manager_myreaded" */).then(m => m.default || m)
+const _a4f36032 = () => import('..\\pages\\material\\index.vue' /* webpackChunkName: "pages_material_index" */).then(m => m.default || m)
+const _ba5b238a = () => import('..\\pages\\problem.vue' /* webpackChunkName: "pages_problem" */).then(m => m.default || m)
+const _bd250432 = () => import('..\\pages\\problem\\index.vue' /* webpackChunkName: "pages_problem_index" */).then(m => m.default || m)
+const _55327cfe = () => import('..\\pages\\problem\\label\\_label.vue' /* webpackChunkName: "pages_problem_label__label" */).then(m => m.default || m)
+const _716cac14 = () => import('..\\pages\\problem\\problem\\_id.vue' /* webpackChunkName: "pages_problem_problem__id" */).then(m => m.default || m)
+const _177cba6c = () => import('..\\pages\\friend\\submit.vue' /* webpackChunkName: "pages_friend_submit" */).then(m => m.default || m)
+const _4557c31b = () => import('..\\pages\\gossip\\submit.vue' /* webpackChunkName: "pages_gossip_submit" */).then(m => m.default || m)
+const _45131518 = () => import('..\\pages\\music\\music.vue' /* webpackChunkName: "pages_music_music" */).then(m => m.default || m)
+const _d2aec17e = () => import('..\\pages\\blog\\item\\_id.vue' /* webpackChunkName: "pages_blog_item__id" */).then(m => m.default || m)
+const _26f66ac7 = () => import('..\\pages\\gossip\\_id.vue' /* webpackChunkName: "pages_gossip__id" */).then(m => m.default || m)
+const _2f12d3ee = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 
 
@@ -89,129 +89,129 @@ export function createRouter () {
     routes: [
 		{
 			path: "/addProblem",
-			component: _5d046470,
+			component: _7219df52,
 			name: "addProblem"
 		},
 		{
 			path: "/blog",
-			component: _a873f8a2,
+			component: _4722c6e8,
 			name: "blog"
 		},
 		{
 			path: "/friend",
-			component: _1c6181aa,
+			component: _3683bb10,
 			name: "friend"
 		},
 		{
 			path: "/gossip",
-			component: _77e33fbc,
+			component: _72efcc9f,
 			name: "gossip"
 		},
 		{
 			path: "/login",
-			component: _55acd6cf,
+			component: _0e8b11f6,
 			name: "login"
 		},
 		{
 			path: "/manager",
-			component: _de81ccda,
+			component: _b234f76e,
 			children: [
 				{
 					path: "",
-					component: _956e3454,
+					component: _7a261c19,
 					name: "manager"
 				},
 				{
 					path: "account",
-					component: _adb0129e,
+					component: _a8deaf98,
 					name: "manager-account"
 				},
 				{
 					path: "dynamic",
-					component: _661c73c3,
+					component: _68852546,
 					name: "manager-dynamic"
 				},
 				{
 					path: "myanswer",
-					component: _1d553f16,
+					component: _6802bdf3,
 					name: "manager-myanswer"
 				},
 				{
 					path: "mycollect",
-					component: _10fa8b02,
+					component: _1bfce7c5,
 					name: "manager-mycollect"
 				},
 				{
 					path: "myfocus",
-					component: _9a9df0a0,
+					component: _95cc8d9a,
 					name: "manager-myfocus"
 				},
 				{
 					path: "myquestion",
-					component: _b48a1184,
+					component: _09f79a4a,
 					name: "manager-myquestion"
 				},
 				{
 					path: "myreaded",
-					component: _37c5f6e6,
+					component: _2eca836a,
 					name: "manager-myreaded"
 				}
 			]
 		},
 		{
 			path: "/material",
-			component: _eb366418,
+			component: _a4f36032,
 			name: "material"
 		},
 		{
 			path: "/problem",
-			component: _e6a7f8f6,
+			component: _ba5b238a,
 			children: [
 				{
 					path: "",
-					component: _c471db70,
+					component: _bd250432,
 					name: "problem"
 				},
 				{
 					path: "label/:label?",
-					component: _643ade6a,
+					component: _55327cfe,
 					name: "problem-label-label"
 				},
 				{
 					path: "problem/:id?",
-					component: _fe2c8d80,
+					component: _716cac14,
 					name: "problem-problem-id"
 				}
 			]
 		},
 		{
 			path: "/friend/submit",
-			component: _bb32bbe2,
+			component: _177cba6c,
 			name: "friend-submit"
 		},
 		{
 			path: "/gossip/submit",
-			component: _425a98c4,
+			component: _4557c31b,
 			name: "gossip-submit"
 		},
 		{
 			path: "/music/music",
-			component: _68ec6da1,
+			component: _45131518,
 			name: "music-music"
 		},
 		{
 			path: "/blog/item/:id?",
-			component: _14d4ee1e,
+			component: _d2aec17e,
 			name: "blog-item-id"
 		},
 		{
 			path: "/gossip/:id",
-			component: _6513fdb8,
+			component: _26f66ac7,
 			name: "gossip-id"
 		},
 		{
 			path: "/",
-			component: _e7f59890,
+			component: _2f12d3ee,
 			name: "index"
 		}
     ],
