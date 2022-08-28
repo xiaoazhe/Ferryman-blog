@@ -1,4 +1,9 @@
 module.exports = {
+  server: {
+    port: 9527,
+    host: '0.0.0.0',
+    timing: false
+  },
   /*
   ** Headers of the page
   */
