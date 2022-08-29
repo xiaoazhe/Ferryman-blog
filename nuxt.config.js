@@ -1,7 +1,7 @@
 module.exports = {
   server: {
     port: 9527,
-    host: '0.0.0.0',
+    host: '121.5.129.126',
     timing: false
   },
   /*
