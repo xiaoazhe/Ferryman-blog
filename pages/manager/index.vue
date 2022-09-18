@@ -44,7 +44,10 @@ export default {
   methods: {
     getCommentAndReply () {
       commentApi.getCommentAndReply(this.page.pageNum, this.page.pageSize).then(res => {
-        this.dataForm = res.data.data.replyPage
+        if(res.data.data){
+          this.dataForm = res.data.data.replyPage
+        }
+
       })
     },
     // 换页刷新

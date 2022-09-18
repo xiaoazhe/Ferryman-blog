@@ -29,7 +29,7 @@
                 <div class="info">
                   <p class="text">
                     <router-link :to="'/gossip/' + item._id" v-html="item.content">
-                 
+
                     </router-link>
                   </p>
                   <div class="other">
@@ -90,7 +90,9 @@ import { getUser } from '@/utils/auth'
 export default {
   asyncData () {
     return gossipApi.search(1, 10, 0).then(res => {
-      return { items: res.data.data.rows }
+      if (res.data.data) {
+        return { items: res.data.data.rows }
+      }
     })
   },
   data () {

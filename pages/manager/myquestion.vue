@@ -1,12 +1,12 @@
 <template>
-    <div class="questions"> 
-     <h4><span>我的评论</span></h4> 
-     <ul class="question-list" v-for="(item, index) in dataForm.records" :key="index"> 
-      <li> 
-      <span class="title"><a href="#" v-html="item.content">{{item.content}}</a></span> 
+    <div class="questions">
+     <h4><span>我的评论</span></h4>
+     <ul class="question-list" v-for="(item, index) in dataForm.records" :key="index">
+      <li>
+      <span class="title"><a href="#" v-html="item.content">{{item.content}}</a></span>
       <span class="fr date">{{item.createTime}}</span> <span class="clearfix"></span>
-       </li> 
-      </ul> 
+       </li>
+      </ul>
         <el-pagination
       layout="total, prev, pager, next, jumper"
       @current-change="refreshPageRequest"
@@ -15,7 +15,7 @@
       :total="dataForm.total"
     >
     </el-pagination>
-    </div> 
+    </div>
 
 </template>
 <script>
@@ -44,7 +44,10 @@ export default {
   methods: {
     getCommentAndReply () {
       commentApi.getCommentAndReply(this.page.pageNum, this.page.pageSize).then(res => {
-        this.dataForm = res.data.data.commentPage
+        if(res.data.data) {
+          this.dataForm = res.data.data.commentPage
+        }
+
       })
     },
     // 换页刷新
