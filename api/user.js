@@ -8,10 +8,10 @@ export default {
     },
     register(data,code){
         return request({
-            url:`/user/register?code=` + code,
+            url:`/user/register/${code}`,
             method: 'post',
             data
-            
+
         })
     },
     login(data){
@@ -25,7 +25,7 @@ export default {
        return request({
            url: `/user/info`,
            method: 'get'
-       }) 
+       })
     },
     saveinfo(user){
         return request({
