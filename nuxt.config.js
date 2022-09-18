@@ -50,6 +50,7 @@ module.exports = {
       }
     }
   },
+  target: 'static',
   build: {
     /*
     ** Run ESLint on save
