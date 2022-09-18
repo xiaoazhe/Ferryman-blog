@@ -98,7 +98,11 @@ export default {
   data () {
     return {
       pageNo: 1,
-      user: {}
+      user: {},
+      items: {
+        _id: "",
+        zan: ""
+      }
     }
   },
   created () {
