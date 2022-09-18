@@ -64,7 +64,7 @@
                         <img src="~/assets/img/widget-photo.png" alt=""/>
                         {{ item.author }}
                       </span>
-                      <span>6月22日 12:01</span>
+                      <span>{{ item.createTime }}</span>
                     </div>
                     <div class="fr attention">
                       <nuxt-link

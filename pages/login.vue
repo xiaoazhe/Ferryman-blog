@@ -97,7 +97,7 @@ export default {
       sendsms(){
         userApi.sendsms( this.pojo.mobile ).then(res => {
           this.$message({
-            message: res.data.message,
+            message: res.data.msg,
             type: (res.data.flag?'success':'error')
           })
         })
@@ -106,8 +106,8 @@ export default {
         console.log(this.pojo)
         userApi.register( this.pojo, this.code ).then( res=> {
           this.$message({
-            message: res.data.message,
-            type: (res.data.flag?'success':'error')
+            message: res.data.msg,
+            type: (res.data.code === 200 ?'success':'error')
           })
         })
       },

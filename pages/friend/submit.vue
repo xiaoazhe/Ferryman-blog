@@ -6,7 +6,7 @@
           <el-upload
             class="upload-cover"
             drag
-            action="http://localhost:8800/file/fdfsUploadImage"
+            action="http://localhost:8001/file/fdfsUploadImage"
             multipartFile
             :on-success="uploadCover"
             :headers="importHeaders"
@@ -32,7 +32,7 @@
           class="input-xfat input-xxlarge title"
         />
       </div>
-     
+
       <input
         v-model="nickName"
         type="text"
@@ -85,7 +85,7 @@ export default {
         res: (response) => {
           return response.msg
         },
-        name: 'file'  //图片上传参数 
+        name: 'file'  //图片上传参数
       }
     })
   },

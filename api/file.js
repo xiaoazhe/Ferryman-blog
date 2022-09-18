@@ -12,7 +12,7 @@ export default {
         //         'Content-Type': 'multipart/form-data'
         //     }
         // })
-        return axios.post('http://localhost:8800/file/fdfsUploadImage',
+        return axios.post('http://localhost:8001/file/fdfsUploadImage',
             data
             , {
                 headers: {
@@ -23,7 +23,7 @@ export default {
         )
     },
     deletefdfsImage (params) {
-        return axios.post('http://localhost:8800/file/deletefdfsImage', params,
+        return axios.post('http://localhost:8001/file/deletefdfsImage', params,
             {
                 headers: { 'Authorization': "Bearer " + getUser().token }
             }

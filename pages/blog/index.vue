@@ -48,7 +48,7 @@
           <el-upload
             class="upload-cover"
             drag
-            action="http://localhost:8800/file/fdfsUploadImage"
+            action="http://localhost:8001/file/fdfsUploadImage"
             multipartFile
             :on-success="uploadCover"
             :headers="importHeaders"
@@ -58,7 +58,7 @@
             <img v-else :src="dataForm.fileUid" width="360px" height="180px" />
           </el-upload>
         </el-form-item>
-        
+
         <el-form-item label="分类" prop="typeName">
           <el-select
             v-model="dataForm.typeName"
