@@ -62,7 +62,7 @@
           </div>
         </div>
       </div>
-      <div class="fl right-tag" v-if="user.name !== undefined">
+      <div class="fl right-tag" v-show="user.name !== undefined">
         <div class="block-btn">
           <p>来个匿名吐槽，发泄一下你心中的怒火吧！</p>
           <router-link class="sui-btn btn-block btn-share" to="/gossip/submit"
@@ -70,7 +70,7 @@
           >
         </div>
       </div>
-      <div class="fl right-tag" v-if="user.name === undefined">
+      <div class="fl right-tag" v-show="user.name === undefined">
         <div class="block-btn">
           <p>来个匿名吐槽，发泄一下你心中的怒火吧！</p>
           <router-link class="sui-btn btn-block btn-share" to="/login"

@@ -19,12 +19,12 @@
                 <input type="text" placeholder="输入关键词..." />
                 <span class="btn-search fa fa-search"></span>
             </form>
-            <div class="sui-nav pull-right info" v-if="user.name!==undefined">
+            <div class="sui-nav pull-right info" v-show="user.name!==undefined">
               <li><a href="/manager" class="notice">{{user.name}}</a></li>
               <li><a @click="logout" class="notice">退出登陆</a></li>
               <li><a href="/manager"  class="homego"><img :src="user.avatar" width="50px" height="50px" :alt="user.name" /></a></li>
             </div>
-             <div class="sui-nav pull-right info" v-if="user.name===undefined">
+             <div class="sui-nav pull-right info" v-show="user.name===undefined">
                <router-link tag="li" to="/login" active-class="active"><el-button>登陆</el-button></router-link>
              </div>
             </div>

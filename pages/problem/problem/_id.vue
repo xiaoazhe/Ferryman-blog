@@ -5,8 +5,8 @@
       <div class="fl title">
         <h2>{{ problem.title }}}</h2>
         <p>
-          <span class="tag" v-if="problem.solve === '0'">未解决</span>
-          <span class="tag" v-if="problem.solve === '1'">已解决</span>
+          <span class="tag" v-show="problem.solve === '0'">未解决</span>
+          <span class="tag" v-show="problem.solve === '1'">已解决</span>
           <span class="author">{{ problem.nickname }}</span>
           <span>{{ problem.createTime }}提问</span>
         </p>
@@ -107,7 +107,7 @@
               <div class="tool pull-left">
                 <span
                   class="jubao"
-                  v-if="item.nickname === user.name"
+                  v-show="item.nickname === user.name"
                   @click="delectReply(item.id)"
                   >删除</span
                 >
@@ -183,8 +183,8 @@
             </p>
             <p class="list-info">
               {{ item.reply }}回答 |
-              <span v-if="item.solve === 1">已解决</span>
-              <span v-if="item.solve !== 1">未解决</span>
+              <span v-show="item.solve === 1">已解决</span>
+              <span v-show="item.solve !== 1">未解决</span>
             </p>
           </li>
         </ul>
@@ -219,7 +219,7 @@ export default {
           res: (response) => {
             return response.msg
           },
-          name: 'file'  //图片上传参数 
+          name: 'file'  //图片上传参数
         }
       })
   },

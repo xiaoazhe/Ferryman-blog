@@ -118,7 +118,7 @@ export default {
           if(res.data.code == 200){
             //保存用户信息
             setUser(res.data.data.token, res.data.data.name, res.data.data.avatar)
-            location.href='/'
+            this.$router.push('/')
           }else{
             this.$message( {
               message: res.data.msg,

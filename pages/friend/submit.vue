@@ -11,9 +11,9 @@
             :on-success="uploadCover"
             :headers="importHeaders"
           >
-            <i class="el-icon-upload" v-if="fileUid === ''" />
+            <i class="el-icon-upload" v-show="fileUid === ''" />
 
-            <img v-else :src="fileUid" width="360px" height="180px" />
+            <img :src="fileUid" width="360px" height="180px" />
           </el-upload>
         </el-form-item>
       <div class="input-title">

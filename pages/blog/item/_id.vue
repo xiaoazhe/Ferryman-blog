@@ -25,7 +25,7 @@
 
         <div class="answer-intro">
           <h4 class="answer-num">评论</h4>
-          <div class="comment-box" v-if="user.name !== undefined">
+          <div class="comment-box" v-show="user.name !== undefined">
             <form class="comment-form sui-form form-inline">
               <img src="~/assets/img/widget-photo.jpg" alt="" />
               <div class="input-prepend input-append input-box">
@@ -40,7 +40,7 @@
             </form>
           </div>
 
-          <div class="comment-box" v-if="user.name === undefined">
+          <div class="comment-box" v-show="user.name === undefined">
             <form class="comment-form sui-form form-inline">
               <img src="~/assets/img/widget-photo.jpg" alt="" />
               <div class="input-prepend input-append input-box">

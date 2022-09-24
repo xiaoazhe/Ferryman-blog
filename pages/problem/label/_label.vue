@@ -175,14 +175,14 @@
       <div class="block-btn">
         <p>今天，要提个问题吗?</p>
         <a
-          v-if="user.name === undefined"
+          v-show="user.name === undefined"
           class="sui-btn btn-block btn-share"
           href="/login"
           target="_blank"
           >登录发布</a
         >
         <a
-          v-if="user.name !== undefined"
+          v-show="user.name !== undefined"
           class="sui-btn btn-block btn-share"
           href="/addProblem"
           target="_blank"
@@ -197,7 +197,7 @@
           <ul class="sui-tag" v-for="(item, index) in labList"
                       :key="index">
             <router-link tag="li" active-class="active" :to="'/problem/label/'+item.id"><a>{{item.labelname}}</a></router-link>
-                
+
           </ul>
         </div>
       </div>
@@ -214,7 +214,7 @@ import labelApi from '@/api/label'
 export default {
   created () {
     this.user = getUser()
-    
+
   },
   asyncData ({ params }) {
     return axios.all([problemApi.list('newlist', params.label, 1, 10),

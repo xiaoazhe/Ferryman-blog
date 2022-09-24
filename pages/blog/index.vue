@@ -53,9 +53,9 @@
             :on-success="uploadCover"
             :headers="importHeaders"
           >
-            <i class="el-icon-upload" v-if="dataForm.fileUid === ''" />
+            <i class="el-icon-upload" v-show="dataForm.fileUid === ''" />
 
-            <img v-else :src="dataForm.fileUid" width="360px" height="180px" />
+            <img :src="dataForm.fileUid" width="360px" height="180px" />
           </el-upload>
         </el-form-item>
 

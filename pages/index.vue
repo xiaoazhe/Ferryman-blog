@@ -49,7 +49,7 @@
                 <div
                   class="fl indexImg"
                   style="width: 160px; height: 120px"
-                  v-if="item.fileUid !== ''"
+                  v-show="item.fileUid !== ''"
                 >
                   <img :src="item.fileUid"/>
                 </div>
@@ -93,13 +93,13 @@
           </div>
         </div>
         <div class="fl right">
-          <div class="block-btn" v-if="user.name !== undefined">
+          <div class="block-btn" v-show="user.name !== undefined">
             <p>今天，有什么好东西要和大家分享么?</p>
             <a class="sui-btn btn-block btn-share" href="/blog" target="_blank"
             >发布分享</a
             >
           </div>
-          <div class="block-btn" v-if="user.name === undefined">
+          <div class="block-btn" v-show="user.name === undefined">
             <p>今天，有什么好东西要和大家分享么?</p>
             <a class="sui-btn btn-block btn-share" target="_blank" href="/login"
             >请登录分享</a
