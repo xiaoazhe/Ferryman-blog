@@ -58,7 +58,7 @@
                             <p>
                               浏览量 {{ item.visits }} |
                               {{ item.createTime }} 来自
-                              <a href="#">{{ item.nickname }} </a>
+                              <a :href="'/problem/problem/' + item.id">{{ item.nickname }} </a>
                             </p>
                           </div>
                         </div>
@@ -94,20 +94,20 @@
                           <p class="author">
                             <span class="name">{{ item.replyname }}</span
                             ><span>{{ item.replytime }}</span
-                            >回答
+                          >回答
                           </p>
                           <p class="title">
-                            <a href="./qa-detail.html" target="_blank">{{
-                              item.title
-                            }}</a>
+                            <a :href="'/problem/problem/'+ item.id" target="_blank">{{
+                                item.title
+                              }}</a>
                           </p>
                         </div>
                         <div class="other">
                           <div class="fr brower">
                             <p>
                               浏览量 {{ item.visits }} |
-                              {{ item.createtime }} 来自
-                              <a href="#">{{ item.nickname }} </a>
+                              {{ item.createTime }} 来自
+                              <a :href="'/problem/problem/' + item.id">{{ item.nickname }} </a>
                             </p>
                           </div>
                         </div>
@@ -143,20 +143,20 @@
                           <p class="author">
                             <span class="name">{{ item.replyname }}</span
                             ><span>{{ item.replytime }}</span
-                            >回答
+                          >回答
                           </p>
                           <p class="title">
-                            <a href="./qa-detail.html" target="_blank">{{
-                              item.title
-                            }}</a>
+                            <a :href="'/problem/problem/'+ item.id" target="_blank">{{
+                                item.title
+                              }}</a>
                           </p>
                         </div>
                         <div class="other">
                           <div class="fr brower">
                             <p>
                               浏览量 {{ item.visits }} |
-                              {{ item.createtime }} 来自
-                              <a href="#">{{ item.nickname }} </a>
+                              {{ item.createTime }} 来自
+                              <a :href="'/problem/problem/' + item.id">{{ item.nickname }} </a>
                             </p>
                           </div>
                         </div>

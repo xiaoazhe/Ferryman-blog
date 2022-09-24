@@ -9,7 +9,7 @@ export default {
     },
     findBlogByTypeId(data, typeId) {
         return request({
-            url: `/type/findBlogByTypeId?id=`+typeId,
+            url: `/type/findBlogByTypeId/${typeId}`,
             method: 'post',
             data
         })

@@ -39,7 +39,8 @@ export default {
         pageNum: "",
         pageSize: "",
         totalPages: "",
-        totalSize: 0
+        totalSize: 0,
+        rows: []
       }
     }
   },
