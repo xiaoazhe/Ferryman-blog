@@ -32,7 +32,7 @@ export default {
     },
     thumbup(id){
         return request({
-            url: `/gossip/thumbup/${id}`,
+            url: `/gossip/thumbsUp/${id}`,
             method: 'put'
         })
     },
