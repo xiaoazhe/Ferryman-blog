@@ -90,7 +90,8 @@ export default {
         },
         code: '',
         mobile: '',
-        password: ''
+        password: '',
+        loginStatus: 0
       }
     },
     methods: {
@@ -115,10 +116,12 @@ export default {
         this.pojo.password = this.password
         this.pojo.mobile = this.mobile
         userApi.login(this.pojo).then( res=> {
-          if(res.data.code == 200){
+          if(res.data.code === 200){
+            this.loginStatus = res.data.code
             //保存用户信息
             setUser(res.data.data.token, res.data.data.name, res.data.data.avatar)
-            this.$router.push('/')
+
+            // this.$router.push('/')
           }else{
             this.$message( {
               message: res.data.msg,
@@ -127,7 +130,11 @@ export default {
             this.mobile=''
             this.password=''
           }
+          if(this.loginStatus === 200) {
+            location.href='/'
+          }
         })
+
       }
     }
 }

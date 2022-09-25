@@ -36,7 +36,7 @@ export default {
         records: [],
         pages: "",
         size: "",
-        total: "",
+        total: 0,
         totalSize: 0
       }
     }

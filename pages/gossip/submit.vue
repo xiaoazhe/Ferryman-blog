@@ -1,9 +1,9 @@
 <template>
-  <div class="wrapper release-tc"> 
-   <div class="release-box"> 
-    <h3>发布吐槽</h3> 
-    <div class="editor"> 
-     <div class="quill-editor" 
+  <div class="wrapper release-tc">
+   <div class="release-box">
+    <h3>发布吐槽</h3>
+    <div class="editor">
+     <div class="quill-editor"
          :content="content"
          @change="onEditorChange($event)"
          @blur="onEditorBlur($event)"
@@ -12,14 +12,14 @@
          v-quill:myQuillEditor="editorOption">
      </div>
 
-     <div class="btns"> 
-      <button class="sui-btn btn-danger btn-release" @click="save">发布</button> 
-     </div> 
-     <div class="clearfix"></div> 
-    </div> 
-   </div> 
-   <div class="clearfix"></div> 
-  </div> 
+     <div class="btns">
+      <button class="sui-btn btn-danger btn-release" @click="save">发布</button>
+     </div>
+     <div class="clearfix"></div>
+    </div>
+   </div>
+   <div class="clearfix"></div>
+  </div>
 
 </template>
 <script>
@@ -41,7 +41,7 @@ export default {
           res: (response) =>{
             return response.info
           },
-          name: 'img'  //图片上传参数 
+          name: 'img'  //图片上传参数
         }
       })
     },
@@ -71,7 +71,7 @@ export default {
                   message: res.data.msg,
                   type: (res.data.code === 200?'success':'error')
               })
-              if(res.data.flag){
+              if(res.data.code === 200){
                   this.$router.push('/gossip')
               }
           })
