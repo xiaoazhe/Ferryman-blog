@@ -48,7 +48,7 @@
           <el-upload
             class="upload-cover"
             drag
-            action="http://localhost:8001/file/fdfsUploadImage"
+            action="http://121.5.129.126:8001/file/fdfsUploadImage"
             multipartFile
             :on-success="uploadCover"
             :headers="importHeaders"
@@ -125,15 +125,16 @@ export default {
     this.getTypeList()
   },
   methods: {
- onSubmit() {
-   blog.saveBlog(this.dataForm).then(res => {
-     this.dialogVisible= false
-        this.$message({
-          message: res.data.msg,
-          type: (res.data.code === 200 ? 'success' : 'error')
-        })
+    onSubmit() {
+      blog.saveBlog(this.dataForm).then(res => {
+        this.dialogVisible= false
+           this.$message({
+             message: res.data.msg,
+             type: (res.data.code === 200 ? 'success' : 'error')
+           })
       })
-      },
+      // location.href='/'
+    },
     uploadCover (response) {
       this.dataForm.fileUid = response.data;
     },

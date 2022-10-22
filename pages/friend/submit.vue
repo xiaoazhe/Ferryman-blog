@@ -6,7 +6,7 @@
           <el-upload
             class="upload-cover"
             drag
-            action="http://localhost:8001/file/fdfsUploadImage"
+            action="http://121.5.129.126:8001/file/fdfsUploadImage"
             multipartFile
             :on-success="uploadCover"
             :headers="importHeaders"
@@ -81,7 +81,7 @@ export default {
   created () {
     this.editorOption = quillRedefine({
       uploadConfig: {
-        action: 'http://localhost:8001/file/images',
+        action: 'http://121.5.129.126:8001/file/images',
         res: (response) => {
           return response.msg
         },

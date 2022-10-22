@@ -8,15 +8,15 @@
              <a class="sui-brand"><music /></a>
             <ul class="sui-nav">
                 <router-link tag="li" to="/" active-class="active" exact><a>首页</a></router-link>
-                <router-link tag="li" to="/problem" active-class="active"><a>提问</a></router-link>
-                <router-link tag="li" to="/gossip" active-class="active"><a>吐槽</a></router-link>
-                <router-link tag="li" to="/material" active-class="active"><a>资料</a></router-link>
-                <router-link tag="li" to="/friend" active-class="active"><a>链接</a></router-link>
+                <router-link tag="li" to="/problem" active-class="active"><a>提问解答</a></router-link>
+                <router-link tag="li" to="/gossip" active-class="active"><a>匿名吐槽</a></router-link>
+                <router-link tag="li" to="/material" active-class="active"><a>白嫖资料</a></router-link>
+                <router-link tag="li" to="/friend" active-class="active"><a>友链</a></router-link>
                 <router-link tag="li" to="/manager" active-class="active"><a>个人中心</a></router-link>
             </ul>
 
             <form class="sui-form sui-form pull-left">
-                <input type="text" placeholder="输入关键词..." />
+                <input type="text" placeholder="输入关键词...反正也没用" />
                 <span class="btn-search fa fa-search"></span>
             </form>
             <div class="sui-nav pull-right info" v-show="user.name!==undefined">

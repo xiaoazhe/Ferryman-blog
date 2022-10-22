@@ -307,7 +307,7 @@ export default {
       this.getBlogByUser(),
       this.editorOption = quillRedefine({
         uploadConfig: {
-          action: 'http://localhost:8001/file/images',
+          action: 'http://121.5.129.126:8001/file/images',
           res: (response) => {
             return response.data
           },

@@ -53,11 +53,11 @@ export default {
     this.getLabel(),
       this.editorOption = quillRedefine({
         uploadConfig: {
-          action: 'http://localhost:8001/file/images',
+          action: 'http://121.5.129.126:8001/file/images',
           res: (response) => {
             return response.msg
           },
-          name: 'file'  //图片上传参数 
+          name: 'file'  //图片上传参数
         }
       })
   },
@@ -73,7 +73,7 @@ export default {
   methods: {
     getLabel () {
       labelApi.toplist().then(res => {
-        this.labelList= res.data.data 
+        this.labelList= res.data.data
       })
     },
     onEditorBlur (editor) {
