@@ -55,7 +55,7 @@ export default {
         uploadConfig: {
           action: 'http://121.5.129.126:8001/file/images',
           res: (response) => {
-            return response.msg
+            return response.data
           },
           name: 'file'  //图片上传参数
         }

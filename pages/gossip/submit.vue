@@ -5,10 +5,7 @@
     <div class="editor">
      <div class="quill-editor"
          :content="content"
-         @change="onEditorChange($event)"
-         @blur="onEditorBlur($event)"
-         @focus="onEditorFocus($event)"
-         @ready="onEditorReady($event)"
+          @change="onEditorChange($event)"
          v-quill:myQuillEditor="editorOption">
      </div>
 
@@ -34,17 +31,17 @@ export default {
         editorOption: {}
       }
     },
-    created(){
-      this.editorOption=quillRedefine({
-        uploadConfig:{
-          action: 'http://121.5.129.126:8001/file/images',
-          res: (response) =>{
-            return response.info
-          },
-          name: 'img'  //图片上传参数
-        }
-      })
-    },
+    // created(){
+    //   this.editorOption=quillRedefine({
+    //     uploadConfig:{
+    //       action: 'http://121.5.129.126:8001/file/images',
+    //       res: (response) =>{
+    //         return response.data
+    //       },
+    //       name: 'img'  //图片上传参数
+    //     }
+    //   })
+    // },
     mounted() {
       console.log('app init, my quill insrance object is:', this.myQuillEditor)
       /*setTimeout(() => {

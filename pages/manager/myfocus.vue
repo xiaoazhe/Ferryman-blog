@@ -2,7 +2,7 @@
   <div class="focus-list">
     <div class="myfocus-list">
       <ul class="sui-nav nav-tabs nav-large">
-        <li class="active"><a href="#one" data-toggle="tab">关注的问题</a></li>
+        <li class="active"><a href="#one" data-toggle="tab">关注的博客</a></li>
       </ul>
       <div class="tab-content tab-wraped">
         <div id="one" class="tab-pane active">

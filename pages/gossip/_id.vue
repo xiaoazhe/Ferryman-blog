@@ -31,7 +31,7 @@
                     content = '';
                   "
                   ><i class="fa fa-commenting" aria-hidden="true"></i>
-                  {{ pojo.comment }}</a
+                  《--评论点击这里， 已有{{ pojo.comment }}评论</a
                 >
               </li>
             </ul>

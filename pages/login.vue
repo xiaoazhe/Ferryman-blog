@@ -104,7 +104,6 @@ export default {
         })
       },
       register(){
-        console.log(this.pojo)
         userApi.register( this.pojo, this.code ).then( res=> {
           this.$message({
             message: res.data.msg,

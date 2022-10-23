@@ -8,7 +8,7 @@ export default {
     },
     register(data,code){
         return request({
-            url:`/user/register/${code}`,
+            url:`/user/register`,
             method: 'post',
             data
 

@@ -132,8 +132,9 @@ export default {
              message: res.data.msg,
              type: (res.data.code === 200 ? 'success' : 'error')
            })
+        location.href='/'
       })
-      // location.href='/'
+
     },
     uploadCover (response) {
       this.dataForm.fileUid = response.data;
