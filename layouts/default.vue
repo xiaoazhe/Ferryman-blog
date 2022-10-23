@@ -16,8 +16,9 @@
             </ul>
 
             <form class="sui-form sui-form pull-left">
-                <input type="text" placeholder="输入关键词...反正也没用" />
-                <span class="btn-search fa fa-search"></span>
+                <input type="text" placeholder="搜索标题..." v-model="searchData" @keyup.enter="search(searchData)"/>
+                <span class="btn-search fa fa-search" @click="search(searchData)"></span>
+
             </form>
             <div class="sui-nav pull-right info" v-show="user.name!==undefined">
               <li><a href="/manager" class="notice">{{user.name}}</a></li>
@@ -101,7 +102,8 @@ export default {
   },
     data(){
         return {
-            user: {}
+          searchData: '',
+          user: {}
         }
     },
     created(){
@@ -111,6 +113,11 @@ export default {
         logout(){
             removeUser()
             location.href='/'
+        },
+        search(data){
+          if (data) {
+            location.href='/blog/list/'+ data
+          }
         }
     }
 }

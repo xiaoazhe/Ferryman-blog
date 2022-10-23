@@ -93,6 +93,7 @@
           </div>
         </div>
         <div class="fl right">
+
           <div class="block-btn" v-show="user.name !== undefined">
             <p>今天，有什么好东西要和大家分享么?</p>
             <a class="sui-btn btn-block btn-share" href="/blog" target="_blank"

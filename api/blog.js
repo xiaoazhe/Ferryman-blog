@@ -1,16 +1,27 @@
 import request from '@/utils/request'
 // 分页查询
 export default {
-    findPage(pageNum,pageSize) {
-        return request({
-            url: '/blog/findPage',
-            method: 'post',
-            data:{
-                pageNum,
-                pageSize
-            }
-        })
-    },
+  findPage(pageNum,pageSize) {
+    return request({
+      url: '/blog/findPage',
+      method: 'post',
+      data:{
+        pageNum,
+        pageSize
+      }
+    })
+  },
+  findPageByFilter(pageNum,pageSize,name) {
+    return request({
+      url: '/blog/findPage',
+      method: 'post',
+      data:{
+        pageNum,
+        pageSize,
+        name
+      }
+    })
+  },
   findPageType(pageNum,pageSize,enabled) {
         return request({
             url: '/blog/findPage',
