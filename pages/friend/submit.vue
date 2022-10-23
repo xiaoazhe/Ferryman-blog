@@ -20,7 +20,7 @@
         <input
           v-model="title"
           type="text"
-          placeholder="标题：一句话说清问题"
+          placeholder="标题：一句话说清 如：xx社区"
           class="input-xfat input-xxlarge title"
         />
       </div>
