@@ -4,7 +4,7 @@
       <div class="left-nav">
         <div class="float-nav" id="float-nav">
           <ul class="sui-nav nav-tabs nav-xlarge tab-navbar tab-vertical">
-            <li class="active"><a>所有分类</a></li>
+            <li class="active"><a href="javascript:void(0)" @click.prevent="getTypeBlogList('all')">所有分类</a></li>
             <li v-for="(item, index) in typeList" :key="index">
               <a
                 href="javascript:void(0)"
@@ -278,12 +278,19 @@ export default {
       })
     },
     setCollect(id) {
-      problemApi.setCollect(id, 1).then(res => {
+      if (!this.user.token) {
         this.$message({
-          message: res.data.msg,
-          type: (res.data.code === 200 ? 'success' : 'error')
+          message: "未登录",
+          type: ('success')
         })
-      })
+      } else {
+        problemApi.setCollect(id, 1).then(res => {
+          this.$message({
+            message: res.data.msg,
+            type: (res.data.code === 200 ? 'success' : 'error')
+          })
+        })
+      }
     },
     friendTop() {
       friendApi.friendTop().then(res => {
