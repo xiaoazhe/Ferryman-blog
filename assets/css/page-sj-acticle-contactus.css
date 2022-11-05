@@ -109,7 +109,7 @@ header .sui-navbar .navbar-inner .sui-nav li a {
 
 header .sui-navbar .navbar-inner .sui-nav li.active a {
   background: transparent;
-  color: #e64620;
+  color: #079fec;
   font-weight: bold;
 }
 
@@ -187,7 +187,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li {
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li a {
@@ -212,7 +212,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .nav-headline .navs li.active a {
@@ -232,7 +232,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
   line-height: 36px;
   font-size: 20px;
   text-align: center;
-  color: #e64620;
+  color: #079fec;
   font-weight: normal;
 }
 
@@ -250,7 +250,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 .card-line .cards .card-item .item-content .card-title {
   padding-left: 15px;
   line-height: 28px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
   font-size: 18px;
   color: #333;
   font-weight: normal;
@@ -297,7 +297,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .contactme .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .contactme .nav-headline .navs li.active a {

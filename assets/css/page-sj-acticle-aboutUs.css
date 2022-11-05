@@ -89,7 +89,7 @@ i {
 }
 
 .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .nav-headline .navs li.active a {
@@ -109,7 +109,7 @@ i {
   line-height: 36px;
   font-size: 20px;
   text-align: center;
-  color: #e64620;
+  color: #079fec;
   font-weight: normal;
 }
 
@@ -127,7 +127,7 @@ i {
 .card-line .cards .card-item .item-content .card-title {
   padding-left: 15px;
   line-height: 28px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
   font-size: 18px;
   color: #333;
   font-weight: normal;

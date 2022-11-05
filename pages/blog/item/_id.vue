@@ -14,9 +14,9 @@
             >
             <span class="fr">收藏</span>
           </div>
-          <div class="clearfix">
-            <h2>{{ blog.summary }}</h2>
-          </div>
+<!--          <div class="clearfix">-->
+<!--            <h2>{{ blog.summary }}</h2>-->
+<!--          </div>-->
           <div class="content">
             <div v-html="blogValue"></div>
           </div>

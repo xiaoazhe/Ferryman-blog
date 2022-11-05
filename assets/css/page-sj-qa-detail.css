@@ -75,7 +75,7 @@ i {
  * colors variables
  */
 .tab-nav {
-  background: #000;
+  background: #079fec;
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -106,7 +106,7 @@ i {
 .tab-nav .sui-nav.navbar-dark li.active a {
   border: 0;
   border-radius: 0;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .tab-nav .more {
@@ -294,8 +294,8 @@ i {
 
 .similar-problem .title {
   padding-left: 10px;
-  color: #e64620;
-  border-left: 2px solid #e64620;
+  color: #079fec;
+  border-left: 2px solid #079fec;
 }
 
 .similar-problem .problem-list {

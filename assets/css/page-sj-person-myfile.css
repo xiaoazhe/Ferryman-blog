@@ -106,7 +106,7 @@ i {
 .tab-nav .sui-nav.navbar-dark li.active a {
   border: 0;
   border-radius: 0;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .tab-nav .more {
@@ -168,7 +168,7 @@ i {
 }
 
 .myhome-personinfo .person-baseinfo .info h1 .allinfo a {
-  color: #e64620;
+  color: #079fec;
 }
 
 .myhome-personinfo .person-baseinfo .info .fill {
@@ -230,7 +230,7 @@ i {
   line-height: 36px;
   font-weight: normal;
   background-color: #E3E3E3;
-  color: #e64620;
+  color: #079fec;
 }
 
 .myhome-personinfo .edit-info h4 span {
@@ -313,7 +313,7 @@ i {
 }
 
 .myhome-list li.active a {
-  color: #e64620;
+  color: #079fec;
 }
 
 .myhome-list li a {
@@ -337,7 +337,7 @@ i {
 
 .file-edit .tit span {
   padding-left: 25px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
 }
 
 .file-edit .name {
@@ -432,7 +432,7 @@ i {
 .file-edit .canadd .add-list .add a {
   font-size: 14px;
   line-height: 28px;
-  color: #e64620;
+  color: #079fec;
 }
 
 .file-edit .btns {
@@ -455,9 +455,9 @@ i {
 }
 
 .file-edit .btn-save {
-  background: #e64620;
+  background: #079fec;
   color: #fff;
-  border-color: #e64620;
+  border-color: #079fec;
 }
 
 .file-edit .form-show {
@@ -639,7 +639,7 @@ header {
 
 .right h3 span {
   padding-left: 20px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
 }
 
 .right .sui-progress {

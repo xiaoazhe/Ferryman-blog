@@ -106,7 +106,7 @@ i {
 .tab-nav .sui-nav.navbar-dark li.active a {
   border: 0;
   border-radius: 0;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .tab-nav .more {
@@ -168,7 +168,7 @@ i {
 }
 
 .myhome-personinfo .person-baseinfo .info h1 .allinfo a {
-  color: #e64620;
+  color: #079fec;
 }
 
 .myhome-personinfo .person-baseinfo .info .fill {
@@ -230,7 +230,7 @@ i {
   line-height: 36px;
   font-weight: normal;
   background-color: #E3E3E3;
-  color: #e64620;
+  color: #079fec;
 }
 
 .myhome-personinfo .edit-info h4 span {
@@ -313,7 +313,7 @@ i {
 }
 
 .myhome-list li.active a {
-  color: #e64620;
+  color: #079fec;
 }
 
 .myhome-list li a {
@@ -348,7 +348,7 @@ i {
 
 .home-content .activities .tit span {
   padding: 4px 20px;
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .home-content .activities .activities-content {
@@ -387,7 +387,7 @@ i {
 .account-type h3 {
   line-height: 36px;
   font-weight: normal;
-  color: #e64620;
+  color: #079fec;
   border-bottom: 1px solid #e8e8e8;
 }
 
@@ -439,7 +439,7 @@ i {
 
 .account-type .account-info .bind {
   cursor: pointer;
-  color: #e64620;
+  color: #079fec;
 }
 
 .account-type .account-person {

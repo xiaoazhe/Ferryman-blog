@@ -109,7 +109,7 @@ header .sui-navbar .navbar-inner .sui-nav li a {
 
 header .sui-navbar .navbar-inner .sui-nav li.active a {
   background: transparent;
-  color: #e64620;
+  color: #079fec;
   font-weight: bold;
 }
 
@@ -187,7 +187,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li {
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li a {
@@ -212,7 +212,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .nav-headline .navs li.active a {
@@ -249,11 +249,11 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .release-feedback .sui-form .sui-dropdown-menu > .active a {
-  background: #e64620;
+  background: #079fec;
 }
 
 .release-feedback .sui-form .sui-dropdown-menu > li > a:hover, .release-feedback .sui-form .sui-dropdown-menu > li > a:focus {
-  background: #e64620;
+  background: #079fec;
 }
 
 .release-feedback .sui-form .input-area {
@@ -284,7 +284,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
   border-radius: 5px;
   border: 0;
   font-size: 14px;
-  background-color: #e64620;
+  background-color: #079fec;
   font-family: 'Microsoft Yahei';
 }
 
@@ -316,7 +316,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .feedback .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .feedback .nav-headline .navs li.active a {

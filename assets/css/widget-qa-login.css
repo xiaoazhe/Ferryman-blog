@@ -4,7 +4,7 @@
  */
 .qa-login {
   padding: 26px 24px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -15,7 +15,7 @@
 }
 
 .qa-login p a {
-  color: #e64620;
+  color: #079fec;
   text-decoration: underline;
 }
 
@@ -61,7 +61,7 @@
   line-height: 24px;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-family: "微软雅黑";
 }

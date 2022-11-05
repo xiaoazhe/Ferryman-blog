@@ -76,7 +76,7 @@ i {
  */
 .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -89,7 +89,7 @@ i {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";
@@ -182,7 +182,7 @@ i {
 .tc-detail .comment-area .comment-tit span {
   padding-left: 18px;
   font-size: 16px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
 }
 
 .tc-detail .comment-area .comment-list {
@@ -280,7 +280,7 @@ i {
 
 .right-tag .block-btn {
   padding: 10px 15px 13px 17px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -293,7 +293,7 @@ i {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";

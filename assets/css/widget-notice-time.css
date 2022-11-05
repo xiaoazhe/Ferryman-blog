@@ -10,9 +10,9 @@
 .notice-time .notice-title {
   margin-bottom: 10px;
   padding-left: 15px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
   font-size: 16px;
-  color: #e64620;
+  color: #079fec;
 }
 
 .notice-time .notice-content {
@@ -49,7 +49,7 @@
 }
 
 .notice-time .notice-content .everyday .operate li span.red a {
-  color: #e64620;
+  color: #079fec;
 }
 
 .notice-time .notice-content .everyday .operate li span.gray a {

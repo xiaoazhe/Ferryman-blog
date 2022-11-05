@@ -36,7 +36,7 @@ header .sui-navbar .navbar-inner .sui-nav li a {
 
 header .sui-navbar .navbar-inner .sui-nav li.active a {
   background: transparent;
-  color: #e64620;
+  color: #079fec;
   font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ header .sui-navbar .navbar-inner .info li .btn-login {
   border: 0;
   border-radius: 5px;
   color: #fff;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 header .sui-navbar .navbar-inner .info li img {

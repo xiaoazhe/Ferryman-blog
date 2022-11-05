@@ -27,18 +27,18 @@
 }
 
 .home-content .nav-tabs li a:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 .home-content .nav-tabs > .active > a {
   border: 0;
-  border-bottom: 2px solid #e64620;
-  color: #e64620;
+  border-bottom: 2px solid #079fec;
+  color: #079fec;
   background-color: transparent;
 }
 
 .home-content .nav-tabs > .active > a:hover {
-  color: #e64620;
+  color: #079fec;
   background-color: transparent;
 }
 
@@ -68,11 +68,11 @@
   margin-top: 2px;
   font-size: 12px;
   border-radius: 4px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
 }
 
 .home-content .tab-content .question-list li .good .num {
-  color: #e64620;
+  color: #079fec;
   font-size: 14px;
 }
 
@@ -100,7 +100,7 @@
 
 .home-content .activities .tit span {
   padding: 4px 20px;
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .home-content .activities .activities-content {

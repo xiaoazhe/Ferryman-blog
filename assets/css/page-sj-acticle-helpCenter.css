@@ -109,7 +109,7 @@ header .sui-navbar .navbar-inner .sui-nav li a {
 
 header .sui-navbar .navbar-inner .sui-nav li.active a {
   background: transparent;
-  color: #e64620;
+  color: #079fec;
   font-weight: bold;
 }
 
@@ -187,7 +187,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li {
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li a {
@@ -212,7 +212,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .nav-headline .navs li.active a {
@@ -232,7 +232,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
   line-height: 36px;
   font-size: 20px;
   text-align: center;
-  color: #e64620;
+  color: #079fec;
   font-weight: normal;
 }
 
@@ -274,7 +274,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
   font-size: 16px;
   line-height: 36px;
   clear: both;
-  color: #e64620;
+  color: #079fec;
 }
 
 /*
@@ -321,7 +321,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .help .nav-headline .navs li.active {
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
 }
 
 .help .nav-headline .navs li.active a {

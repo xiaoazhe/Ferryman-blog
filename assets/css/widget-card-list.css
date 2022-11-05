@@ -14,8 +14,8 @@
 .card-list .head .title {
   padding-left: 15px;
   margin: 0;
-  border-left: 2px solid #e64620;
-  color: #e64620;
+  border-left: 2px solid #079fec;
+  color: #079fec;
 }
 
 .card-list .list ul .card-item {
@@ -41,17 +41,17 @@
 
 .card-list .list ul .card-item .attention .degree {
   font-size: 16px;
-  color: #e64620;
+  color: #079fec;
 }
 
 .card-list .list ul .card-item .attention .fa-heart-o {
-  color: #e64620;
+  color: #079fec;
   padding-right: 4px;
   cursor: pointer;
 }
 
 .card-list .list ul .card-item .attention .fa-heart {
-  color: #e64620;
+  color: #079fec;
   padding-right: 4px;
 }
 
@@ -93,12 +93,12 @@
   padding-bottom: 6px;
   border-radius: 0;
   font-size: 14px;
-  border-color: #e64620;
-  color: #e64620;
+  border-color: #079fec;
+  color: #079fec;
   background-color: #fff;
 }
 
 .card-list .list .btn-more:hover {
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
 }

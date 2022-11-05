@@ -17,21 +17,21 @@
       </div>
       <div class="right-content">
         <div class="fl middle">
-          <el-carousel height="350px" direction="vertical" :autoplay="false">
+          <el-carousel height="350px" direction="horizontal" :autoplay="false">
             <el-carousel-item>
               <el-image
                 :src="'https://gitee.com/chongzhe/Ferryman-cloud/widgets/widget_card.svg?' +
-                   'colors=eae9d7,2e2f29,272822,484a45,eae9d7,747571'"
+                   'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
                 style="height:100%;width:100%;">
               </el-image>
             </el-carousel-item>
             <el-carousel-item>
               <el-image
-                :src="'https://gitee.com/chongzhe/Ferryman-cloud/widgets/widget_card.svg?' +
-                   'colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b'"
+                :src="'https://gitee.com/chongzhe/Ferryboatman-boot/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
                 style="height:100%;width:100%;">
               </el-image>
             </el-carousel-item>
+
           </el-carousel>
 
           <div class="data-list">
@@ -93,15 +93,22 @@
           </div>
         </div>
         <div class="fl right">
-
+          <div class="activity">
+            <div class="acti">
+              <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.ntimg.cn%2Ffile%2F20191127%2F20783472_182006134081_2.jpg&refer=http%3A%2F%2Fpic.ntimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246616&t=537f27b1279b9699f3b6025c3e478927" alt="广告位1" />
+            </div>
+            <div class="acti">
+              <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.ixintu.com%2Fdownload%2Fjpg%2F202004%2Fa12e33a0d6a35c1a6497120e2c3b3480_800_375.jpg%21con&refer=http%3A%2F%2Fimg.ixintu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246736&t=ced18b73b6f13459578116d9c44008d1" alt="广告位2" />
+            </div>
+          </div>
           <div class="block-btn" v-show="user.name !== undefined">
-            <p>今天，有什么好东西要和大家分享么?</p>
+            <p>每日总结，前往平台发布</p>
             <a class="sui-btn btn-block btn-share" href="/blog" target="_blank"
-            >发布分享</a
+            >发布-></a
             >
           </div>
           <div class="block-btn" v-show="user.name === undefined">
-            <p>今天，有什么好东西要和大家分享么?</p>
+            <p>每日总结，前往平台发布</p>
             <a class="sui-btn btn-block btn-share" target="_blank" href="/login"
             >请登录分享</a
             >
@@ -201,6 +208,27 @@
               <a href="/friend" class="sui-btn btn-block btn-bordered btn-more"
               >查看更多</a
               >
+            </div>
+          </div>
+          <div class="ad-carousel">
+            <div class="carousel">
+              <div id="myCarousel" data-ride="carousel" data-interval="4000" class="sui-carousel slide">
+                <el-carousel height="250px" direction="horizontal" :autoplay="false">
+                  <el-carousel-item>
+                    <el-image
+                      :src="'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.ntimg.cn%2Ffile%2F20191127%2F20783472_182006134081_2.jpg&refer=http%3A%2F%2Fpic.ntimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246616&t=537f27b1279b9699f3b6025c3e478927'"
+                      style="height:100%;width:100%;">
+                    </el-image>
+                  </el-carousel-item>
+                  <el-carousel-item>
+                    <el-image
+                      :src="'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.ntimg.cn%2Ffile%2F20191127%2F20783472_182006134081_2.jpg&refer=http%3A%2F%2Fpic.ntimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246616&t=537f27b1279b9699f3b6025c3e478927'"
+                      style="height:100%;width:100%;">
+                    </el-image>
+                  </el-carousel-item>
+                </el-carousel>
+                <span class="adname">广告</span>
+              </div>
             </div>
           </div>
         </div>

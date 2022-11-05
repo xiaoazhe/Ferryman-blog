@@ -109,7 +109,7 @@ header .sui-navbar .navbar-inner .sui-nav li a {
 
 header .sui-navbar .navbar-inner .sui-nav li.active a {
   background: transparent;
-  color: #e64620;
+  color: #079fec;
   font-weight: bold;
 }
 
@@ -187,7 +187,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li {
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li a {
@@ -229,7 +229,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 .tab-nav .sui-nav.navbar-dark li.active a {
   border: 0;
   border-radius: 0;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .tab-nav .more {
@@ -346,13 +346,13 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 }
 
 .tabtags-bottom-line .sui-nav li > a:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 .tabtags-bottom-line .sui-nav > .active > a {
   font-weight: bold;
   border: 0;
-  border-bottom: 2px solid #e64620;
+  border-bottom: 2px solid #079fec;
   color: #000;
 }
 
@@ -522,7 +522,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
  */
 .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -535,7 +535,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";
@@ -559,8 +559,8 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
 .hot-tags .head .title {
   padding-left: 15px;
   margin: 0;
-  border-left: 2px solid #e64620;
-  color: #e64620;
+  border-left: 2px solid #079fec;
+  color: #079fec;
 }
 
 .hot-tags .tags {
@@ -627,7 +627,7 @@ header {
 
 .tag-item .right-tag .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -640,7 +640,7 @@ header {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";

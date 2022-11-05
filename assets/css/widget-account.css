@@ -14,7 +14,7 @@
 .account .left-tit .tit-item {
   padding: 8px 25px;
   background-color: #fff0d4;
-  color: #e64620;
+  color: #079fec;
 }
 
 .account .left-tit .tit-item span {
@@ -35,7 +35,7 @@
 .account .right-info .right-tit span {
   padding-left: 25px;
   font-size: 16px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
 }
 
 .account .right-info .account-type {
@@ -45,7 +45,7 @@
 .account .right-info .account-type h3 {
   line-height: 36px;
   font-weight: normal;
-  color: #e64620;
+  color: #079fec;
   border-bottom: 1px solid #e8e8e8;
 }
 
@@ -98,7 +98,7 @@
 
 .account .right-info .account-type .account-info .bind {
   cursor: pointer;
-  color: #e64620;
+  color: #079fec;
 }
 
 .account .right-info .account-type .account-person {

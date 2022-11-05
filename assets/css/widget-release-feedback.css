@@ -27,11 +27,11 @@
 }
 
 .release-feedback .sui-form .sui-dropdown-menu > .active a {
-  background: #e64620;
+  background: #079fec;
 }
 
 .release-feedback .sui-form .sui-dropdown-menu > li > a:hover, .release-feedback .sui-form .sui-dropdown-menu > li > a:focus {
-  background: #e64620;
+  background: #079fec;
 }
 
 .release-feedback .sui-form .input-area {
@@ -62,6 +62,6 @@
   border-radius: 5px;
   border: 0;
   font-size: 14px;
-  background-color: #e64620;
+  background-color: #079fec;
   font-family: 'Microsoft Yahei';
 }

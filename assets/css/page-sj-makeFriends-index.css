@@ -153,8 +153,8 @@ i {
 }
 
 .friend-dating-list .friends .friend-item .eat-more {
-  border-top-color: #e64620;
-  border-right-color: #e64620;
+  border-top-color: #079fec;
+  border-right-color: #079fec;
 }
 
 .friend-dating-list .friends .friend-item .travel-more {
@@ -197,7 +197,7 @@ i {
 }
 
 .friend-dating-list .friends .friend-item .photo .tag .tag-cafe.eat {
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .friend-dating-list .friends .friend-item .photo .tag .tag-cafe.travel {
@@ -245,7 +245,7 @@ i {
 }
 
 .friend-dating-list .friends .friend-item .content .title .eat {
-  color: #e64620;
+  color: #079fec;
 }
 
 .friend-dating-list .friends .friend-item .content .title .travel {
@@ -325,7 +325,7 @@ i {
  */
 .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -338,7 +338,7 @@ i {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";

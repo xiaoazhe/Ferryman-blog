@@ -29,18 +29,18 @@
 }
 
 .mycollect-list .nav-tabs li a:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 .mycollect-list .nav-tabs > .active > a {
   border: 0;
-  border-bottom: 2px solid #e64620;
-  color: #e64620;
+  border-bottom: 2px solid #079fec;
+  color: #079fec;
   background-color: transparent;
 }
 
 .mycollect-list .nav-tabs > .active > a:hover {
-  color: #e64620;
+  color: #079fec;
   background-color: transparent;
 }
 

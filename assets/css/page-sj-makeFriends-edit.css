@@ -109,7 +109,7 @@ header .sui-navbar .navbar-inner .sui-nav li a {
 
 header .sui-navbar .navbar-inner .sui-nav li.active a {
   background: transparent;
-  color: #e64620;
+  color: #079fec;
   font-weight: bold;
 }
 
@@ -187,7 +187,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li {
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li:hover {
-  color: #e64620;
+  color: #079fec;
 }
 
 header .sui-navbar .navbar-inner .info li .hoverinfo li a {
@@ -370,7 +370,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
  */
 .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -383,7 +383,7 @@ header .sui-navbar .navbar-inner .info li .hoverinfo li a {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";

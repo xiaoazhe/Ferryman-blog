@@ -39,7 +39,7 @@
   border-right: 1px solid #ccc;
   padding-right: 15px;
   cursor: pointer;
-  color: #e64620;
+  color: #079fec;
 }
 
 .data-list .headline .headline-item h5 .attention .beforeclose {
@@ -59,7 +59,7 @@
 }
 
 .data-list .headline .headline-item h5 .attention .afterclose {
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .data-list .headline .headline-item h5 .authorName {
@@ -85,7 +85,7 @@
   padding: 5px;
   margin-bottom: 5px;
   text-align: center;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .data-list .stop a {

@@ -14,7 +14,7 @@
 
 .release-date h3 span {
   padding-left: 15px;
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
 }
 
 .release-date .sui-form {
@@ -52,7 +52,7 @@
 
 .release-date .sui-form .controls li .topic.d2 {
   background-position: -64px 0;
-  color: #E64620;
+  color: #079fec;
 }
 
 .release-date .sui-form .controls li .topic.d3 {

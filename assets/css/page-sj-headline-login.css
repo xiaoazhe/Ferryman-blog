@@ -85,7 +85,7 @@ i {
 
 .float-nav .sui-nav.nav-tabs.tab-vertical li.active a {
   border-radius: 7px;
-  background: #e64620;
+  background: #079fec;
 }
 
 .float-nav .sui-nav.nav-tabs.tab-vertical li a {
@@ -154,7 +154,7 @@ i {
   border-right: 1px solid #ccc;
   padding-right: 15px;
   cursor: pointer;
-  color: #e64620;
+  color: #079fec;
 }
 
 .data-list .headline .headline-item h5 .attention .beforeclose {
@@ -174,7 +174,7 @@ i {
 }
 
 .data-list .headline .headline-item h5 .attention .afterclose {
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .data-list .headline .headline-item h5 .authorName {
@@ -200,7 +200,7 @@ i {
   padding: 5px;
   margin-bottom: 5px;
   text-align: center;
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .data-list .stop a {
@@ -225,7 +225,7 @@ i {
  */
 .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -238,7 +238,7 @@ i {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";
@@ -256,8 +256,8 @@ i {
 .question-list .title {
   padding-left: 15px;
   margin: 0;
-  border-left: 2px solid #e64620;
-  color: #e64620;
+  border-left: 2px solid #079fec;
+  color: #079fec;
 }
 
 .question-list .lists ul {
@@ -305,12 +305,12 @@ i {
   padding-bottom: 6px;
   border-radius: 0;
   font-size: 14px;
-  border-color: #e64620;
-  color: #e64620;
+  border-color: #079fec;
+  color: #079fec;
 }
 
 .question-list .lists .btn-more:hover {
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
 }
 
@@ -330,8 +330,8 @@ i {
 .card-list .head .title {
   padding-left: 15px;
   margin: 0;
-  border-left: 2px solid #e64620;
-  color: #e64620;
+  border-left: 2px solid #079fec;
+  color: #079fec;
 }
 
 .card-list .list ul .card-item {
@@ -357,17 +357,17 @@ i {
 
 .card-list .list ul .card-item .attention .degree {
   font-size: 16px;
-  color: #e64620;
+  color: #079fec;
 }
 
 .card-list .list ul .card-item .attention .fa-heart-o {
-  color: #e64620;
+  color: #079fec;
   padding-right: 4px;
   cursor: pointer;
 }
 
 .card-list .list ul .card-item .attention .fa-heart {
-  color: #e64620;
+  color: #079fec;
   padding-right: 4px;
 }
 
@@ -409,13 +409,13 @@ i {
   padding-bottom: 6px;
   border-radius: 0;
   font-size: 14px;
-  border-color: #e64620;
-  color: #e64620;
+  border-color: #079fec;
+  color: #079fec;
   background-color: #fff;
 }
 
 .card-list .list .btn-more:hover {
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
 }
 
@@ -431,8 +431,8 @@ i {
 .activity-list .title {
   padding-left: 15px;
   margin: 0;
-  border-left: 2px solid #e64620;
-  color: #e64620;
+  border-left: 2px solid #079fec;
+  color: #079fec;
 }
 
 .activity-list .list ul {
@@ -468,12 +468,12 @@ i {
   padding-bottom: 6px;
   border-radius: 0;
   font-size: 14px;
-  border-color: #e64620;
-  color: #e64620;
+  border-color: #079fec;
+  color: #079fec;
 }
 
 .activity-list .list .btn-more:hover {
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
 }
 
@@ -561,7 +561,7 @@ header {
 
 .sj-content .right-content .right .block-btn {
   padding: 10px 15px 13px 25px;
-  border: 1px solid #e64620;
+  border: 1px solid #079fec;
   font-size: 14px;
   background-color: #fff;
 }
@@ -574,7 +574,7 @@ header {
   padding-top: 6px;
   padding-bottom: 6px;
   border: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   color: #fff;
   font-size: 14px;
   font-family: "微软雅黑";

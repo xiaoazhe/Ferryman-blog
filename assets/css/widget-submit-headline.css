@@ -36,7 +36,7 @@
 }
 
 .submit-headline .left-box .tit span {
-  border-left: 2px solid #e64620;
+  border-left: 2px solid #079fec;
   padding-left: 20px;
   font-weight: normal;
 }
@@ -68,7 +68,7 @@
 
 .submit-headline .left-box .sui-form .sui-btn {
   border-radius: 0;
-  background-color: #e64620;
+  background-color: #079fec;
   border: 0;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .submit-headline .left-box .sui-form .control-group label span {
-  color: #e64620;
+  color: #079fec;
 }
 
 .submit-headline .left-box .sui-form .control-group .controls, .submit-headline .left-box .sui-form .control-group .input-append {
@@ -214,7 +214,7 @@
 }
 
 .submit-headline .left-box .sui-form .control-group .dropdown-inner > .sui-dropdown-menu > li a:hover {
-  background-color: #e64620;
+  background-color: #079fec;
 }
 
 .submit-headline .left-box .sui-form .control-group textarea.input-xxlarge {
