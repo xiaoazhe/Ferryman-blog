@@ -1,24 +1,23 @@
 <template>
-  <div>
-      <header>
+<div>
+<header>
         <div class="activity-head">
         <div class="wrapper">
+
         <div class="sui-navbar">
             <div class="navbar-inner">
              <a class="sui-brand"><music /></a>
             <ul class="sui-nav">
                 <router-link tag="li" to="/" active-class="active" exact><a>首页</a></router-link>
-                <router-link tag="li" to="/problem" active-class="active"><a>提问解答</a></router-link>
-                <router-link tag="li" to="/gossip" active-class="active"><a>匿名吐槽</a></router-link>
-                <router-link tag="li" to="/material" active-class="active"><a>白嫖资料</a></router-link>
-                <router-link tag="li" to="/friend" active-class="active"><a>友链</a></router-link>
+                <router-link tag="li" to="/problem" active-class="active"><a>解答区</a></router-link>
+                <router-link tag="li" to="/gossip" active-class="active"><a>匿名区</a></router-link>
+                <router-link tag="li" to="/material" active-class="active"><a>资料区</a></router-link>
+                <router-link tag="li" to="/friend" active-class="active"><a>链接区</a></router-link>
                 <router-link tag="li" to="/manager" active-class="active"><a>个人中心</a></router-link>
             </ul>
-
             <form class="sui-form sui-form pull-left">
                 <input type="text" placeholder="搜索标题..." v-model="searchData" @keyup.enter="search(searchData)"/>
                 <span class="btn-search fa fa-search" @click="search(searchData)"></span>
-
             </form>
             <div class="sui-nav pull-right info" v-show="user.name!==undefined">
               <li><a href="/manager" class="notice">{{user.name}}</a></li>
@@ -30,11 +29,13 @@
              </div>
             </div>
             </div>
+
         </div>
         </div>
         </header>
-        <nuxt/>
-      <footer>
+
+  <nuxt></nuxt>
+  <footer>
         <div class="footer">
         <div class="wrapper">
             <div class="footer-bottom">

@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="sj-content">
+
       <div class="left-nav">
         <div class="float-nav" id="float-nav">
           <ul class="sui-nav nav-tabs nav-xlarge tab-navbar tab-vertical">
@@ -19,13 +20,16 @@
         <div class="fl middle">
           <el-carousel height="350px" direction="horizontal" :autoplay="false">
             <el-carousel-item>
-              <el-image
-                :src="'https://gitee.com/chongzhe/Ferryman-cloud/widgets/widget_card.svg?' +
+              <a href="http://nav.ferryboat.top/">
+                <el-image
+                  :src="'https://gitee.com/chongzhe/Ferryman-cloud/widgets/widget_card.svg?' +
                    'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
-                style="height:100%;width:100%;">
-              </el-image>
+                  style="height:100%;width:100%;">
+                </el-image>
+              </a>
             </el-carousel-item>
             <el-carousel-item>
+
               <el-image
                 :src="'https://gitee.com/chongzhe/Ferryboatman-boot/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
                 style="height:100%;width:100%;">
@@ -95,10 +99,14 @@
         <div class="fl right">
           <div class="activity">
             <div class="acti">
-              <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.ntimg.cn%2Ffile%2F20191127%2F20783472_182006134081_2.jpg&refer=http%3A%2F%2Fpic.ntimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246616&t=537f27b1279b9699f3b6025c3e478927" alt="广告位1" />
+              <a href="http://nav.ferryboat.top/">
+                <img  src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.ntimg.cn%2Ffile%2F20191127%2F20783472_182006134081_2.jpg&refer=http%3A%2F%2Fpic.ntimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246616&t=537f27b1279b9699f3b6025c3e478927" alt="广告位1" />
+              </a>
             </div>
             <div class="acti">
-              <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.ixintu.com%2Fdownload%2Fjpg%2F202004%2Fa12e33a0d6a35c1a6497120e2c3b3480_800_375.jpg%21con&refer=http%3A%2F%2Fimg.ixintu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246736&t=ced18b73b6f13459578116d9c44008d1" alt="广告位2" />
+              <a href="http://nav.ferryboat.top/">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.ixintu.com%2Fdownload%2Fjpg%2F202004%2Fa12e33a0d6a35c1a6497120e2c3b3480_800_375.jpg%21con&refer=http%3A%2F%2Fimg.ixintu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670246736&t=ced18b73b6f13459578116d9c44008d1" alt="广告位2" />
+              </a>
             </div>
           </div>
           <div class="block-btn" v-show="user.name !== undefined">
