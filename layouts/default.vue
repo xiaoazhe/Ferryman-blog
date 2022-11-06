@@ -39,47 +39,7 @@
         <div class="footer">
         <div class="wrapper">
             <div class="footer-bottom">
-            <div class="link">
-            <dl>
-            <dt>
-                网站相关
-            </dt>
-            <dd>
-                关于我们
-            </dd>
-
-            </dl>
-            <dl>
-            <dt>
-                常用链接
-            </dt>
-            <dd>
-                Gitee
-            </dd>
-            </dl>
-            <dl>
-            <dt>
-                联系我
-            </dt>
-            <dd>
-                联系我
-            </dd>
-
-            </dl>
-            <dl>
-            <dt>
-                关注我
-            </dt>
-            <dd>
-                Gitee
-            </dd>
-
-            </dl>
-            <div class="xuke">
-            <h3>内容许可</h3>
-            </div>
-            </div>
-            <p class="Copyright"> &copy;当前版本 0.0.1</p>
+            <p class="Copyright"> <a href="https://beian.miit.gov.cn/#/Integrated/index">沪ICP备2022029914号</a></p>
             </div>
         </div>
         </div>

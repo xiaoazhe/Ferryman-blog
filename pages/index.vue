@@ -18,9 +18,9 @@
       </div>
       <div class="right-content">
         <div class="fl middle">
-          <el-carousel height="350px" direction="horizontal" :autoplay="false">
+          <el-carousel height="350px" direction="horizontal" :autoplay="true">
             <el-carousel-item>
-              <a href="http://nav.ferryboat.top/">
+              <a href="https://gitee.com/chongzhe/Ferryman-cloud">
                 <el-image
                   :src="'https://gitee.com/chongzhe/Ferryman-cloud/widgets/widget_card.svg?' +
                    'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
@@ -29,13 +29,32 @@
               </a>
             </el-carousel-item>
             <el-carousel-item>
-
-              <el-image
-                :src="'https://gitee.com/chongzhe/Ferryboatman-boot/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
-                style="height:100%;width:100%;">
-              </el-image>
+              <a href="https://gitee.com/chongzhe/Ferryboatman-boot">
+                <el-image
+                  :src="'https://gitee.com/chongzhe/Ferryboatman-boot/widgets/widget_card.svg?' +
+                   'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
+                  style="height:100%;width:100%;">
+                </el-image>
+              </a>
             </el-carousel-item>
-
+            <el-carousel-item>
+              <a href="https://gitee.com/chongzhe/Ferryboatman-admin">
+                <el-image
+                  :src="'https://gitee.com/chongzhe/Ferryboatman-admin/widgets/widget_card.svg?' +
+                   'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
+                  style="height:100%;width:100%;">
+                </el-image>
+              </a>
+            </el-carousel-item>
+            <el-carousel-item>
+              <a href="https://gitee.com/chongzhe/Ferryboatman-nav">
+                <el-image
+                  :src="'https://gitee.com/chongzhe/Ferryboatman-nav/widgets/widget_card.svg?' +
+                   'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
+                  style="height:100%;width:100%;">
+                </el-image>
+              </a>
+            </el-carousel-item>
           </el-carousel>
 
           <div class="data-list">
