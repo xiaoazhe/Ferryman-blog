@@ -1,6 +1,7 @@
 <template>
 <div>
 <header>
+  <meta name="baidu-site-verification" content="code-raKLuinDkh" />
         <div class="activity-head">
         <div class="wrapper">
 
