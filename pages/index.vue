@@ -173,7 +173,7 @@
           </div>
           <div class="card-list">
             <div class="head">
-              <h3 class="title">热门博客</h3>
+              <h3 class="title">热门</h3>
             </div>
             <div class="list">
               <ul>
