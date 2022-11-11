@@ -38,6 +38,15 @@
               </a>
             </el-carousel-item>
             <el-carousel-item>
+              <a href="https://gitee.com/chongzhe/Ferryman-blog">
+                <el-image
+                  :src="'https://gitee.com/chongzhe/Ferryman-blog/widgets/widget_card.svg?' +
+                   'colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae'"
+                  style="height:100%;width:100%;">
+                </el-image>
+              </a>
+            </el-carousel-item>
+            <el-carousel-item>
               <a href="https://gitee.com/chongzhe/Ferryboatman-admin">
                 <el-image
                   :src="'https://gitee.com/chongzhe/Ferryboatman-admin/widgets/widget_card.svg?' +
