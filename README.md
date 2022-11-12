@@ -20,7 +20,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-## 前台系统内置功能
+## 前台内置功能
 前端源码：https://gitee.com/chongzhe/Ferryman-blog
 预览：http://ferryboat.top/
 1. 博客：搜索，关注，查看，评论，回复，发布
