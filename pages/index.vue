@@ -5,7 +5,7 @@
       <div class="left-nav">
         <div class="float-nav" id="float-nav">
           <ul class="sui-nav nav-tabs nav-xlarge tab-navbar tab-vertical">
-            <li class="active"><a href="javascript:void(0)" @click.prevent="getTypeBlogList('all')">所有分类</a></li>
+            <li class="active"><a href="javascript:void(0)" @click.prevent="getTypeBlogList('-1')">所有分类</a></li>
             <li v-for="(item, index) in typeList" :key="index">
               <a
                 href="javascript:void(0)"
