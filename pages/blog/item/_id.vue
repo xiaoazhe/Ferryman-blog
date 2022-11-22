@@ -410,7 +410,7 @@ export default {
     return{
       title: `摆渡人-${this.blog.title}`,
       meta:[
-        {hid:'description',name:'description',content: this.summary || '摆渡人'},
+        {hid:'description',name:'description',content: this.blog.summary || '摆渡人'},
         {hid:'keywords',name:'keywords',content: this.blog.summary || '摆渡人'}
       ]
     }
