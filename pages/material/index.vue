@@ -16,6 +16,7 @@
          <a :href="'/gathering/item/'+item.id" target="_blank"><img :src="item.fileUrl" alt="" /></a>
         </div>  -->
         <div class="text">
+          <img :src="item.fileUrl" alt="" />
          <p class="title">{{item.title}}</p>
          <div class="fl goin">
           <p>{{item.describe}}</p>
@@ -43,7 +44,6 @@
       <p>{{material.describe}}</p>
       <p>链接：{{material.url}}</p>
       <p>提取码：{{material.pwd}}</p>
-      <p>复制这段内容后打开百度网盘手机App，操作更方便哦</p>
      </div>
     </el-dialog>
    </div>
