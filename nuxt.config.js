@@ -8,12 +8,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '摆渡人社区博客',
+    title: '摆渡人博客',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '程序员时常要学习很多新技术，新工具，而这些技术往往是需要大量实践才能够掌握的。将学习到的新知识通过编写教程的方式分享给其他人的这个过程，本身就是对新知识回顾的过程，有助于对知识点的进一步消化吸收。如果能够通过一篇文章教会别人一个新的知识，那么自己对这个知识的掌握也将更上一个台阶。所谓“最好的检验学习的方法就是把它教给别人”就是这个道理。' },
-      { name: 'keywords', content: '程序员, Java技术, 摆渡人'},
+      { name: 'keywords', content: '程序员, Java技术'},
       { name: 'baidu-site-verification', content: 'code-raKLuinDkh'}
     ],
     link: [
