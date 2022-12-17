@@ -29,12 +29,6 @@
             <form class="comment-form sui-form form-inline">
               <img src="~/assets/img/widget-photo.jpg" alt="" />
               <div class="input-prepend input-append input-box">
-                <!-- <input
-                  id="appendedPrependedInput"
-                  type="text"
-                  class="span2 input-fat real-box"
-                  placeholder="写下你的评论"
-                /> -->
                 <el-button @click="commentAdd">发吐槽</el-button>
               </div>
             </form>
