@@ -1,7 +1,7 @@
 module.exports = {
   server: {
     port: 9527,
-    host: '121.5.129.126',
+    host: 'ferryboat.top',
     timing: false
   },
   /*
@@ -45,7 +45,7 @@ module.exports = {
   */
   proxy: {
     '/api': {
-      target: 'http://121.5.129.126:8010', // 目标接口域名
+      target: 'http://ferryboat.top:8010', // 目标接口域名
       changeOrigin: true, // 表示是否跨域
       pathRewrite: {
         '^/api': '/', // 把 /api 替换成 /
